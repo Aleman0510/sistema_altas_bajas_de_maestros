@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Maestros</title>
+    <link rel="stylesheet" href="css/registro.css">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/1/1e/Logotipo_UTCH.png" alt="Logo">
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="registro.html">Registro</a></li>
+                <li><a href="#">Busqueda</a></l>
+            </ul>
+        </nav>
+        <div class="user">
+            <img src="https://freesvg.org/img/abstract-user-flat-4.png" alt="Usuario">
+        </div>
+    </header>
+</body>
+
+
+
+<body class="div_body">
+    <div class="container">
+        <h2>Registro de Maestros</h2>
+        <form id="registro-maestro">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Escribe el nombre" required>
+            
+            <label for="apellido_paterno">Apellido Paterno:</label>
+            <input type="text" id="apellido_paterno" name="apellido_paterno" placeholder="Escribe el apellido paterno" required>
+            
+            <label for="apellido_materno">Apellido Materno:</label>
+            <input type="text" id="apellido_materno" name="apellido_materno" placeholder="Escribe el apellido materno" required>
+
+            <label for="numero_empleado">Número de Empleado:</label>
+            <input type="number" id="numero_empleado" name="numero_empleado" placeholder="Escribe el número de empleado" required>
+            
+            <label for="especialidad">Especialidad:</label>
+            <input type="text" id="especialidad" name="especialidad" placeholder="Escribe la especialidad" required>
+            
+            <label for="direccion">Dirección:</label>
+            <textarea id="direccion" name="direccion" placeholder="Escribe la dirección" required></textarea>
+            
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" placeholder="Escribe el número de teléfono" required>
+            
+            <label for="correo_electronico">Correo Electrónico:</label>
+            <input type="email" id="correo_electronico" name="correo_electronico" placeholder="Escribe el correo electrónico" required>
+
+            <label for="fecha_ingreso">Fecha de Ingreso:</label>
+            <input type="date" id="fecha_ingreso" name="fecha_ingreso" required>
+            
+            <button type="submit">Registrar Maestro</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
